@@ -3,7 +3,7 @@
     "build": "babel ./chart -d ./dist && npx copyfiles -f ./chart/*.css ./dist   && npx copyfiles -f ./chart/*.gif ./dist"
   },
   "name": "pg-chart-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/RKGrid.js",
   "devDependencies": {
     "@babel/cli": "^7.22.10",
