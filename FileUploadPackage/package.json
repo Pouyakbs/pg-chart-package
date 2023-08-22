@@ -1,6 +1,6 @@
 {
     "scripts": {
-      "build": "babel ./input -d ./dist && npx copyfiles -f ./input/*.css ./dist   && npx copyfiles -f ./input/*.gif ./dist"
+      "build": "babel ./input -d ./dist && npx copyfiles -f ./input/*.css ./dist"
     },
     "name": "pg-fileinput-package",
     "version": "1.0.0",
