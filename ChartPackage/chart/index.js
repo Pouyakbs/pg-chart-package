@@ -97,3 +97,5 @@ const Chart = ({xaxis,chartSeries,height,width,type,chartMap,chartGrid,colors}) 
 }
 
 export default React.memo(Chart)
+export { default as ChartPage } from "./ChartPage";
+export { default as PieChart } from "./PieChart";
